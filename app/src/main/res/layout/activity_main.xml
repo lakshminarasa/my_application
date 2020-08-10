@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context="svecw.app_17b01a0558.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout1"
+        android:orientation="vertical"
+        android:background="@drawable/header">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:text="SVECW STHAPANN"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:fontFamily="cursive"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/interview_image"
+            android:background="@drawable/header" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout2"
+        android:layout_below="@+id/linearlayout1"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:padding="15dp">
+
+        <Button
+
+            android:id="@+id/facultylogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/header"
+            android:text="Faculty Login"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+
+            />
+        <Button
+
+            android:id="@+id/studentlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/header"
+            android:text="Sudent Login"
+
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
